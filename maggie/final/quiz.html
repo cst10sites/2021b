@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Polar Bears</title>
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="style.css">
+<script src="script.js"> </script>
+</head>
+<body>
+
+
+
+<ul class="a">
+  <li class="a"><a  href="index.html">Home</a></li>
+  <li class="a"><a  href="climate.html">Climate Change</a></li>
+  <li class="a"><a class="active" href="quiz.html">Quiz</a></li>
+  <li class="a"><a href="gallery.html">Gallery</a></li>
+</ul>
+
+<div id="title"><h1>Polar Bear Quiz</h1></div>
+
+<div id="polarQuiz">
+<form id="quiz" name="quiz">
+	
+	<p>1. How much do polar bears weigh?</p>
+	<p><input type="radio" id="500lbs" name="question1" value="500lbs">a. 500lbs</p>
+	<p><input type="radio" id="2000lbs-2500lbs" name="question1" value="2000lbs-2500lbs">b. 2000lbs-2500lbs</p>
+	<p><input type="radio" id="900lbs-1600lbs" name="question1" value="900lbs-1600lbs">c. 900lbs-1600lbs</p>
+	
+	<p>2. Where do polar bears live?</p>
+	<p><input type="radio" id="The_Arctic" name="question2" value="The Arctic">a. The Arctic</p>
+	<p><input type="radio" id="In_Australia" name="question2" value="In Australia">b. In Australia</p>
+	<p><input type="radio" id="On_mountain_ranges" name="question2" value="On mountain ranges">c. On mountain ranges</p>
+	<p><input type="radio" id="All_of_the_above" name="question2" value="All of the above">d. All of the above</p>
+	
+	<p>3. Are polar bears carnivores(meat eaters) or herbivores(non-meat eaters)?</p>
+	<p><input type="radio" id="herbivores" name="question3" value="herbivores">a. herbivores</p>
+	<p><input type="radio" id="carnivores" name="question3" value="carnivores">b. carnivores</p>
+	
+	<p>4. How does global warming effect polar bears?</p>
+	<p><input type="radio" id="they_loose_their_dens" name="question4" value="they loose their dens">a. they loose their dens</p>
+	<p><input type="radio" id="higher_risk_of_disease" name="question4" value="higher risk of disease">b. higher risk of disease</p>
+	<p><input type="radio" id="its_harder_to_catch_seals" name="question4" value="it's harder to catch seals">c. it's harder to catch seals</p>
+	<p><input type="radio" id="all_of_the_above" name="question4" value="all of the above">d. all of the above</p>
+	
+	<p>5. What is the estimated amount that the polar bear population will decline by in 2050?</p>
+	<p><input type="radio" id="by_one_fifth" name="question5" value="by one fifth">a. 1/5</p>
+	<p><input type="radio" id="by_one_third" name="question5" value="by one third">b. 1/3</p>
+	<p><input type="radio" id="by_half" name="question5" value="by half">c. 1/2</p>
+	
+	<input type="button" id="button" value="I'm Finished." onclick="finish()">
+	<input type="button" id="Resetbutton" value="Reset." onclick="reset()">
+</div>
+<div id = "afterSubmit">
+
+<p id="message" ></p>
+<p id="numberCorrect"></p>
+</div>
+</form>
+
+</body>
+</html>

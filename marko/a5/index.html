@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<style>
+body {
+	background-color: pink;
+	text-align: center;
+	margin: 250px;
+	color: grey;
+}
+h2 {
+	color: black;
+}
+</style>
+</head>
+<body>
+<h2>Calculator</h2>
+<label for="subTotals">Subtotal:</label>
+<input type="text" id="subTotals">
+<p id="taxTotal">Tax total:0</p>
+<br>
+<form>
+<label for="tips">Tip:</label>
+<select id="tips" name="tips">
+<option value="1">N/A</option>
+<option value="1.1">Average(10%)</option>
+<option value="1.15">Good(15%)</option>
+<option value="1.2">Excellent(20%)</option>
+</select>
+</form>
+<p id="afterTip">After tip total:0</p>
+<br>
+<form>
+<label for="split">Split:</label>
+<select id="split" name="split">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+</form>
+<p id="afterSplit">After split total:0</p>
+
+<button id="submit" onclick="submit();">Submit</button>
+<button id="reset" onclick="reset();">Reset</button>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

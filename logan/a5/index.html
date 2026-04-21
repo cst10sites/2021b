@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tip Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tip Calculator</h1>
+<form>
+
+<label for="subtotal">Subtotal:</label>
+<br>
+<input type="text" id="subtotal" name="subtotal">
+
+<br>
+<p>+ GST (5%)</p>
+<p id="afterTax"></p>
+
+<label for="tip">Tip</label>
+<br>
+<select id="tip" name="tip">
+  <option value="1.00">No Tip</option>
+  <option value="1.10">Average (10%)</option>
+  <option value="1.15">Good (15%)</option>
+  <option value="1.20">Excellent (20%)</option>
+</select>
+
+<p id="afterTip"></p>
+<br>
+<label for="split">Split</label>
+<br>
+
+<select id="split" name="split">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+
+<br>
+<p id="afterSplit"></p>
+<br>
+<input onclick="resetForm()" type="reset">
+</form>
+
+<br>
+<button onclick="submitPrice()">Submit</button>
+
+<script src="script.js"></script>
+</body>
+</html>

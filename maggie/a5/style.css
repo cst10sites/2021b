@@ -1,0 +1,29 @@
+
+body {
+	background-color: #c0add1;
+	color: FloralWhite;
+	font-family: Times New Roman;
+	margin: 100px 50px;
+}
+
+h1, h2 {
+	color: 	#D05C46;
+}
+
+a, em, strong {
+	color: #ffa07a;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+
+table, th, td {
+	border: 1px solid FloralWhite;
+}

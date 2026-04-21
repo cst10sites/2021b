@@ -1,0 +1,79 @@
+ 
+h1 {
+	color: white;
+}
+
+body  {
+  background-image: url("background.png");
+  background-color: #cccccc;
+  margin: 50px 100px;
+}
+
+div.main {
+	background-color: burlywood;
+	 background: rgba(222, 184, 135, 0.5);
+}
+
+div.main2 {
+	background-color: burlywood;
+	background: rgba(222, 184, 135, 0.5);
+	text-align: center;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+div.btn {
+	text-align: center;
+}
+
+a.btn {
+	background-color: burlywood;
+	padding: 15px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+
+a:link {
+	color: saddlebrown;
+}
+
+a:visited {
+	color: saddlebrown;
+}
+
+a:active {
+	color: blue;
+}
+
+a:hover {
+	color: dodgerblue;
+}
+
+strong.food {
+	color: green;
+}
+
+strong.p {
+	color: darkorange;
+}
+
+strong.s {
+	color: mediumblue;
+}
+
+strong.c {
+	color: magenta;
+}
+
+strong.g {
+	color: gold;
+}
+
+strong.f {
+	color: white;
+}

@@ -1,0 +1,28 @@
+body {
+	background-color: solid white;
+	color: solid black;
+	font-family: Verdana;
+	margin: 100px 50px;
+}
+
+h1, h2 {
+	color: solid black;
+}
+
+a, em, strong {
+	color: yellow;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+	

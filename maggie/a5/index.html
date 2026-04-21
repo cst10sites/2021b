@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="script.js"></script>
+<title>Tip Calculator</title>
+</head>
+<body>
+<h1>Tip Calculator</h1>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<form id="form" onsubmit="return false;">
+  <h3><label id="fname">Subtotal:</label></h3>
+  <p><input type="text" id="subtotal"></p>
+
+<h3>+GST(5%)</h3>
+  
+<h3><label for="tipAmount">Tip:</label></h3>
+  <select name="tipAmount" id="tipAmount">
+  <option value="0.15">average</option>
+  <option value="0">horrible</option>
+  <option value="0.1">below average</option>
+  <option value="0.2">excellent</option>
+</select>
+
+<h3><label for="billSplit">Number of people you're splitting the bill with:</label></h3>
+  <select name="billSplit" id="billSplit">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+	<option value="6">6</option>
+</select>
+<br>
+<h2 id="finalBill"></h2>
+<h4 id="subtotalB"></h4>
+<h4 id="tax"></h4>
+<h4 id="total"></h4>
+<h4 id="tip"></h4>
+<h4 id="grandtotal"></h4>
+<h4 id="split"></h4>
+<br>
+  <p><input type="submit" onclick="calculatingTip()"></p>
+  <p><button onclick="resetPage()">Reset</button></p>
+</form>
+
+
+
+</body>
+</html>

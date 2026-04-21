@@ -1,0 +1,23 @@
+img.cursor {
+  display: block;
+}
+
+img.right {
+  float: right;
+}
+
+p.left {
+  display: inline
+  float: left;
+}
+
+div.left-right { 
+  display: inline-block;
+  vertical-align: right;
+}
+
+
+body {
+	background-color: #ffcc66
+	
+}

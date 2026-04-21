@@ -1,0 +1,35 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+	background-color: #E9A97A;
+	color: FloralWhite;
+	font-family: Arial;
+	margin: 100px 50px;
+}
+
+h1, h2 {
+	color: #714E37;
+}
+
+a, em, strong {
+	color: #ffa07a;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+
+table, th, td {
+	border: 1px solid FloralWhite;
+}
