@@ -1,0 +1,45 @@
+body {
+	background-color: BurlyWood;
+	color: Chocholate;
+	font-family: Verdana;
+	margin: 100px 50px;
+}
+
+h1, h2 {
+	color: Green;
+	word-spacing: 5px;
+}
+
+a, em, strong {
+	color: Green;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+table, th {
+	border: 2px solid Green;
+}
+td{
+	border: 2px solid Green;
+	color: red;
+}
+#container {
+  height: 525px;
+  width: 700px;
+  margin: 100px auto;
+  background: Bisque;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+p{
+	color: red;
+}

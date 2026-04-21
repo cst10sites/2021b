@@ -1,0 +1,51 @@
+
+body {
+	background-color: #994d00;
+	color: black;
+	font-family: Verdana;
+	margin: 100px 50px;
+}
+
+h1 {
+	 position: absolute;
+	top: 5%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: Black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+h2 {
+	position: absolute;
+	top: 38%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: Black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+
+a, em, strong {
+	color: black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+table, th, td {
+	border: 2px solid white;
+}

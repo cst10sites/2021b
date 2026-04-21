@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+	color:white;
+	font-family: verdana;
+	margin: 100px 50px;
+}
+h1, h2 {
+	color: crimson
+}
+	
+table {
+	border-collapse: collapse;
+}
+	
+th, td {
+		text-align: left;
+		padding: 5px;
+}
+
+table, th, td {
+	border: 2px solid white;
+}
+		
+	
+
+		
+		

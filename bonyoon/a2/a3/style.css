@@ -1,0 +1,28 @@
+/* This CSS file is used for both index.html and lesson5.css */
+body {
+	background-color: black;
+	color: lightgrey;
+	font-family: Verdana;
+	margin: 100px 50px;
+}
+
+h1, h2 {
+	color: yellow;
+}
+
+a, em, strong {
+	color: green;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+table, th, td {
+	border: 2px solid white;
+}

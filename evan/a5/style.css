@@ -1,0 +1,21 @@
+body {
+	background-color: hotpink;
+	color: lightgrey;
+	font-family: Verdana;
+	margin: 100px 50px;
+}
+
+h1 {
+	color: LightCyan;
+}
+h4 {
+	color: lightgrey;
+}
+	
+.wrapper {
+    text-align: center;
+}
+#page-wrap {
+     width: 400px;
+     margin: 0 auto;
+}

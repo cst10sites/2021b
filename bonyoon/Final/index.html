@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+
+  <h1><a href="index.html">Home</a> <a href="table.html">Ingredients</a>  <a href="instructions.html">Instructions</a>  <a href="timer.html">Patty timer!</a>  <a href="quiz.html">Quiz!</a></h1>
+
+
+<section>                                            <h2>Hamburgers!</h2>
+
+  <p>Today i will be teaching you how to make hamburgers. I will also be including a patty timer so that you can tell how long to cook your patty! Before i teach you how to make hamburgers i am going to give you a little history behind the food. Hambugers first appeared in the 19th or ealry 20th century. They were a product of the culinary needs of a society rapidly changing due to industrislization and the emergence of  the working class and middle class with the resulting demand for mass-produced, affordable food that could be consumed outside of the home. Either USA or Germany (city of Hamburg) was the first country where two slices of bread and a ground beef steak were combined into a "hamburger sandwich" and sold. There is some controversy over the origin of the hamburger because its two basic ingredients, bread and beef, had been prepared and consumed separately for many years in different countries before their combination. Shortly after its creation, the hamburger quickly included all of its currently typically characteristic trimmings, including onions, lettuce, and sliced pickles. So click the links at the top of the page to learn how to make hamburgers!</p>                        
+  <img class="mySlides" src="burger3.jpg"       
+  style="width: 50%" width="500" height="600">
+  <img class="mySlides" src="burger2.jpg"
+  style="width:50%" width="500" height="600">
+  <img class="mySlides" src="burger.jpg"
+  style="width:50%" width="500" height="600">
+</section>
+
+
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
+
