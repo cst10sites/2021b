@@ -1,0 +1,27 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	bottom: 40%;
+	right: 40%;
+}
+
+h1, h2 {
+	color: Chocolate;
+}
+
+
+button {
+	border: none;
+	border-color: white;
+	background-color: white;
+	text-align: center;
+	right: 50%;
+}
+
+p {
+	text-align: center;
+}

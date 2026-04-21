@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 5: Bill Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Bill Calculator</h1>
+<br>
+<label for="subtotal">Subtotal:</label>
+<input type="text" id="subtotal" name="subtotal">
+<p>+GST (5%)</p>
+<p id="aftertax">After Tax Total:</p>
+<br>
+<label for="tips">Tip</label>
+<select id="tips" name="tips">
+  <option value="1">No Tips</option>
+  <option value="1.1">Average</option>
+  <option value="1.15">Good</option>
+  <option value="1.2">Excellent</option>
+</select>
+<p id="aftertip">Total After Tip:</p>
+<br>
+<label for="split">Split</label>
+<select id="split" name="split">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+<p id="aftersplit">After Split:</p>
+<br>
+<button onclick="clickedSubmit();" id="submit">Submit</button>
+<button onclick="clickedReset();" id="reset">Reset</button>
+<p id="idea"></p>
+<script src="script.js"></script>
+</body>
+</html>
